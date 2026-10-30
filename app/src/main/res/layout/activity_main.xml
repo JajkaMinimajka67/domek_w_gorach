@@ -13,7 +13,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Domek W Gorach" />
+        android:text="Domek W Gorach"
+        android:textSize="32sp"
+        android:padding="10dp"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,14 +26,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#008080">
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="Polub"
 
             />
@@ -41,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="Usun" />
 
         <Button
@@ -49,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="Zapisz" />
     </LinearLayout>
 

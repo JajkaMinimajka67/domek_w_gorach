@@ -38,5 +38,20 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        Button button1 = findViewById(R.id.button6);
+        button1.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if(liczbaPolubien == 0) {
+                            textView.setText(liczbaPolubien+ " Polubien");
+                        }
+                        else {
+                            liczbaPolubien--;
+                            textView.setText(liczbaPolubien+ " Polubien");
+                        }
+                    }
+                }
+        );
     }
 }
