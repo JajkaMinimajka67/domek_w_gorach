@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.domek_w_gorach"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.domek_w_gorach"
